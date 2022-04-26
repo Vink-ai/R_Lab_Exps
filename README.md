@@ -22,3 +22,5 @@
 11.	Generate a sample of random normal deviates, and a sample of random exponential deviates. Compute some summaries
 
 12.	Write a R program to multiply two vectors of integers type and length 3. Write a R program to divide two vectors of integers type and length 3. Write a R program to     sort a Vector in ascending and descending order
+
+PS : Exp2 has partial solution ,refer these to know formula and other commands - https://ytliu0.github.io/Stat390EF-R-Independent-Study-archive/Week02/MeanMedianSdCorrelation.html
