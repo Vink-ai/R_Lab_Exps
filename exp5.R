@@ -1,0 +1,10 @@
+pupae <- read.csv("pupae.csv")
+pupae$CO2_treatment <- as.factor(pupae$CO2_treatment)
+levels(pupae$CO2_treatment)
+plot(Frass ~ PupalWeight, data = pupae)
+model <- lm(Frass ~ PupalWeight, data = pupae)
+summary(model)
+
+plot(Frass ~ PupalWeight, data = pupae, subset=Gender==0 & CO2_treatment == 400)
+model <- lm(Frass ~ PupalWeight, data = pupae, subset=Gender==0 & CO2_treatment == 400)
+summary(model)

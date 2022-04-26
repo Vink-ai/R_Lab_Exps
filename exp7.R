@@ -1,0 +1,5 @@
+veclist <- list(x=1:5, y=2:6, z=3:7)
+sapply(veclist, length)
+all(sapply(veclist,length) == 5)
+sapply(veclist, sum)
+veclist$norms <- rnorm(10)
