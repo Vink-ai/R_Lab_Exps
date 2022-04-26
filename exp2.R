@@ -10,4 +10,7 @@ length(x)
 var(x)
 # returns NA need to fix.
 mean(x)
+y <- cereals[,  c(6 , 7 , 8)]
+cor(x, y)
+
 
